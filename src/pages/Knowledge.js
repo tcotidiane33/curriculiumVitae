@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
+import Navigation from "../components/Navigation";
 
 const Knowledge = () => {
-    return (
-        <>
-            <h1>hello ici competences !</h1>
-        </>
-    );
+  return (
+    <>
+      <div>
+        <Navigation />
+      </div>
+    </>
+  );
 };
 
 export default Knowledge;

@@ -1,9 +1,12 @@
 import React from "react";
+import Navigation from "../components/Navigation";
 
 const Portfolio = () => {
   return (
     <>
-      <h1>HELLO ICI PORTFOLIIO §§ !</h1>
+      <div className="">
+        <Navigation />
+      </div>
     </>
   );
 };
