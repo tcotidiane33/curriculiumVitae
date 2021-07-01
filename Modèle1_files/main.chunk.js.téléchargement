@@ -1,0 +1,1923 @@
+(this["webpackJsonpnone"] = this["webpackJsonpnone"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/styles.scss":
+/*!************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./src/styles/styles.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _media_map_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../media/map.jpg */ "./src/media/map.jpg");
+/* harmony import */ var _media_shape_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../media/shape.svg */ "./src/media/shape.svg");
+/* harmony import */ var _media_bigGates_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../media/bigGates.jpg */ "./src/media/bigGates.jpg");
+// Imports
+
+
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+___CSS_LOADER_EXPORT___.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap);"]);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_media_map_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_media_shape_svg__WEBPACK_IMPORTED_MODULE_3__["default"]);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_media_bigGates_jpg__WEBPACK_IMPORTED_MODULE_4__["default"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  margin: 1rem auto;\n  max-width: 1200px;\n  font-family: \"Nova Round\", cursive;\n  color: #333;\n}\n\nbutton {\n  cursor: pointer;\n}\n\nli {\n  list-style-type: none;\n  margin-left: 1.2rem;\n  padding: 2px;\n  font-weight: bolder;\n}\n\nli spam {\n  margin-left: 1.7rem;\n}\n\na {\n  text-decoration: none;\n  color: #333;\n  cursor: pointer;\n}\n\na:visited {\n  color: #333;\n}\n\n.home,\n.knowledges,\n.portfolio,\n.contact {\n  display: flex;\n}\n@media screen and (max-width: 850px) {\n  .home,\n.knowledges,\n.portfolio,\n.contact {\n    display: block !important;\n  }\n}\n\n@media screen and (max-width: 850px) {\n  .homeContent,\n.knowledgesContent,\n.portfolioContent,\n.contactContent {\n    margin-left: 0 !important;\n  }\n}\n\n.contactContent {\n  background: #63e985;\n  border-radius: 25px;\n  width: 100%;\n  overflow: hidden;\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 20% 45% 35%;\n  grid-template-areas: \"1\" \"2\" \"3\";\n}\n.contactContent .header {\n  grid-area: 1;\n  width: 100%;\n  position: relative;\n  background: #2352d4;\n  height: 340px;\n}\n.contactContent .header:before {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center top/cover;\n  filter: grayscale(100%);\n}\n.contactContent .header:after {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 30px;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") no-repeat center/cover;\n}\n.contactContent .contactBox {\n  grid-area: 2;\n  background: #36d0ea;\n  margin: 0 auto;\n  padding: 1rem 3rem;\n  z-index: 2;\n  border-radius: 25px;\n  box-shadow: 0 3px 10px #333;\n  width: 50%;\n  min-width: 440px;\n  min-height: 200px;\n}\n.contactContent .contactBox h1 {\n  text-align: center;\n  margin-top: 0.3rem;\n  position: relative;\n  color: #6c77f4;\n}\n.contactContent .contactBox h1:after {\n  content: \"\";\n  height: 1px;\n  width: 50%;\n  background: #2352d4;\n  position: absolute;\n  bottom: -25px;\n  left: 50%;\n  transform: translateX(-50%);\n}\n.contactContent .contactBox ul {\n  height: 72%;\n  width: inherit;\n  display: grid;\n  margin-top: 3.5rem;\n}\n.contactContent .contactBox ul li {\n  position: relative;\n}\n.contactContent .contactBox ul i {\n  font-size: 1.4rem;\n  position: absolute;\n  transform: translateY(2px);\n  color: #6c77f4;\n}\n.contactContent .contactBox ul span {\n  font-size: 1.4rem;\n  position: absolute;\n  transform: translateX(52px);\n  background: transparent;\n  border: none;\n  outline: none;\n  width: 350px;\n  transition: 0.2s ease;\n}\n.contactContent .contactBox ul .clickInput:hover {\n  transform: translateX(56px);\n  cursor: pointer;\n}\n.contactContent .socialNetwork {\n  grid-area: 3;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.contactContent .socialNetwork ul {\n  display: flex;\n  text-align: center;\n  width: 100%;\n  justify-content: space-around;\n}\n.contactContent .socialNetwork ul a {\n  width: 20%;\n  font-size: 1.2rem;\n  background: #36d0ea;\n  border-radius: 25px;\n  display: inline-block;\n  padding: 0.7rem 0;\n  box-shadow: 0 1px 3px #333;\n  transform: scaleY(0);\n  transform-origin: top;\n  transition: 0.2s ease;\n  transition: scale 0.1s;\n}\n.contactContent .socialNetwork ul a:hover {\n  background: #4fedd2;\n}\n.contactContent .socialNetwork ul a i {\n  color: #6c77f4;\n  margin-top: 0.3rem;\n}\n@keyframes pop {\n  to {\n    transform: scaleY(1);\n  }\n}\n.contactContent .socialNetwork ul a:nth-child(1) {\n  animation: pop 1s forwards;\n  animation-delay: 0.4s;\n}\n.contactContent .socialNetwork ul a:nth-child(2) {\n  animation: pop 1s forwards;\n  animation-delay: 0.8s;\n}\n.contactContent .socialNetwork ul a:nth-child(3) {\n  animation: pop 1s forwards;\n  animation-delay: 1.2s;\n}\n.contactContent .socialNetwork ul a:nth-child(4) {\n  animation: pop 1s forwards;\n  animation-delay: 1.6s;\n}\n\n@media screen and (max-width: 500px) {\n  .contactContent .contactBox {\n    min-width: 100% !important;\n  }\n  .contactContent span {\n    font-size: 0.9rem !important;\n  }\n  .contactContent h4 {\n    font-size: 0.9rem;\n  }\n}\n.home .homeContent {\n  background: linear-gradient(115deg, #2352d4 50%, transparent 100%);\n  min-height: 95vh;\n  width: 100%;\n  min-height: 500px;\n  border-radius: 25px;\n  position: relative;\n  overflow: hidden;\n}\n.home .homeContent:after {\n  content: \"test\";\n  position: absolute;\n  height: 100%;\n  width: inherit;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ") no-repeat center/cover;\n  z-index: -1;\n  filter: brightness(30%);\n}\n.home .homeContent .content {\n  position: absolute;\n  top: 20%;\n  left: 13%;\n  font-family: \"Nova Round\", cursive;\n}\n.home .homeContent .content h1 {\n  font-size: 5rem;\n  font-family: \"Josefin Sans\", serif;\n  color: #36d0ea;\n  text-transform: uppercase;\n  text-shadow: 3px 6px 2px #333;\n}\n.home .homeContent .content h2 {\n  font-size: 2.5rem;\n  padding: 1.5rem 0 7rem;\n  color: #63e985;\n  text-shadow: 1px 4px 1px #333;\n}\n.home .homeContent .content .pdf a {\n  font-size: 1.5rem;\n  background: #63e985;\n  padding: 1rem 2rem;\n  border-radius: 25px;\n  box-shadow: 0 5px 1px #0f0f0f;\n  transition: 0.2s ease;\n}\n.home .homeContent .content .pdf a:hover {\n  background: #4fedd2;\n}\n\n@media screen and (max-width: 850px) {\n  .homeContent {\n    margin: 0 !important;\n  }\n}\n@media screen and (max-width: 580px) {\n  .homeContent:after {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ") no-repeat 60% 50%/cover !important;\n  }\n  .homeContent h1 {\n    font-size: 3rem !important;\n  }\n  .homeContent h2 {\n    font-size: 1.8rem !important;\n  }\n}\n.knowledges .knowledgesContent {\n  min-height: 95vh;\n  width: 100%;\n  position: relative;\n  overflow: hidden;\n  display: grid;\n  grid-template-columns: 38% 1fr 1fr;\n  grid-template-rows: 70% 30%;\n  grid-template-areas: \"L E E\" \"O O H\";\n}\n.knowledges .knowledgesContent .languagesFrameworks, .knowledges .knowledgesContent .experience, .knowledges .knowledgesContent .otherSkills, .knowledges .knowledgesContent .hobbies {\n  background: #6c77f4;\n  border-radius: 25px;\n  padding: 0.8rem;\n}\n.knowledges .knowledgesContent h3 {\n  font-size: 1.4rem;\n  margin-bottom: 1rem;\n  font-family: \"Dosis\", sans-serif;\n  color: #36d0ea;\n  text-transform: uppercase;\n}\n.knowledges .knowledgesContent .languagesFrameworks {\n  grid-area: L;\n  margin-bottom: 0.5rem;\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 1fr 1fr;\n  grid-template-areas: \"L\" \"F\";\n}\n.knowledges .knowledgesContent .languagesFrameworks .languageDisplay {\n  grid-area: L;\n}\n.knowledges .knowledgesContent .languagesFrameworks .frameworkDisplay {\n  grid-area: F;\n}\n.knowledges .knowledgesContent .languagesFrameworks h3 {\n  margin-bottom: 0.3rem;\n}\n.knowledges .knowledgesContent .languagesFrameworks .years {\n  font-size: 0.65rem;\n  display: flex;\n  justify-content: space-between;\n  color: #ddd;\n}\n.knowledges .knowledgesContent .languagesFrameworks .years span {\n  width: 36%;\n}\n.knowledges .knowledgesContent .languagesFrameworks .years span:nth-child(2) {\n  text-align: center;\n  width: 20%;\n}\n.knowledges .knowledgesContent .languagesFrameworks .years span:nth-child(3) {\n  text-align: right;\n  width: 44%;\n}\n.knowledges .knowledgesContent .languagesFrameworks .years span:nth-child(2):before, .knowledges .knowledgesContent .languagesFrameworks .years span:nth-child(3):before {\n  content: \"\";\n  background: rgba(180, 179, 179, 0.507);\n  position: absolute;\n  height: 146px;\n  width: 1px;\n  transform: translate(9px, 19px);\n}\n.knowledges .knowledgesContent .languagesFrameworks .languagesList {\n  padding-top: 0.5rem;\n}\n.knowledges .knowledgesContent .languagesFrameworks .languagesList li {\n  color: #2352d4;\n}\n.knowledges .knowledgesContent .languagesFrameworks .languagesList .progressBar {\n  height: 0.4rem;\n  background: transparent;\n  border-radius: 50px;\n  margin-top: 0.2rem;\n  position: relative;\n}\n.knowledges .knowledgesContent .languagesFrameworks .languagesList .progressBar:after {\n  content: \"\";\n  position: absolute;\n  background: #63e985;\n  border-radius: 50px;\n  height: 0.4rem;\n  width: 0;\n  animation: line 2s ease-out forwards;\n}\n@keyframes line {\n  to {\n    width: 100%;\n  }\n}\n.knowledges .knowledgesContent .experience {\n  grid-area: E;\n  margin: 0 0 0.5rem 0.5rem;\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 10% 1fr 1fr;\n  grid-template-areas: \"1\" \"2\" \"3\";\n}\n.knowledges .knowledgesContent .experience h3 {\n  grid-area: 1;\n}\n.knowledges .knowledgesContent .experience h4 {\n  font-size: 1.1rem;\n  color: #36d0ea;\n}\n.knowledges .knowledgesContent .experience h5 {\n  color: #63e985;\n  padding: 0.5rem 0 0.5rem 1rem;\n}\n.knowledges .knowledgesContent .experience p {\n  text-align: justify;\n  padding: 0 1rem;\n}\n.knowledges .knowledgesContent .experience .exp-1 {\n  grid-area: 2;\n}\n.knowledges .knowledgesContent .experience .exp-2 {\n  grid-area: 3;\n}\n.knowledges .knowledgesContent .otherSkills {\n  grid-area: O;\n  margin-right: 0.5rem;\n}\n.knowledges .knowledgesContent .otherSkills .list {\n  display: flex;\n  width: 80%;\n  height: 100%;\n  margin: 0 auto;\n  justify-content: space-between;\n}\n.knowledges .knowledgesContent .otherSkills .list ul {\n  height: 80%;\n  display: grid;\n}\n.knowledges .knowledgesContent .otherSkills .list ul i {\n  color: #36d0ea;\n}\n.knowledges .knowledgesContent .hobbies {\n  grid-area: H;\n  padding-left: 1.5rem;\n}\n.knowledges .knowledgesContent .hobbies ul {\n  height: 80%;\n  display: grid;\n}\n.knowledges .knowledgesContent .hobbies ul li i {\n  position: absolute;\n  color: #36d0ea;\n}\n.knowledges .knowledgesContent .hobbies ul li span {\n  position: absolute;\n  transform: translateX(2.2rem);\n}\n\n@media screen and (max-width: 950px) {\n  .knowledgesContent h3 {\n    font-size: 1.2rem !important;\n  }\n  .knowledgesContent .languagesList {\n    padding-top: 0.2rem !important;\n  }\n  .knowledgesContent p {\n    font-size: 0.8rem;\n  }\n  .knowledgesContent .otherSkills, .knowledgesContent .hobbies {\n    font-size: 0.8rem;\n  }\n}\n@media screen and (max-width: 850px) {\n  .knowledgesContent h4 {\n    font-size: 0.9rem !important;\n  }\n  .knowledgesContent h5 {\n    font-size: 0.6rem !important;\n    padding: 0.2rem 1rem !important;\n  }\n}\n@media screen and (max-width: 500px) {\n  .knowledgesContent {\n    display: grid !important;\n    grid-template-columns: 1fr !important;\n    grid-template-rows: 1fr 1fr 180px 180px !important;\n    grid-template-areas: \"1\" \"2\" \"3\" \"4\" !important;\n  }\n  .knowledgesContent .languages {\n    grid-area: 1 !important;\n  }\n  .knowledgesContent .experience {\n    grid-area: 2 !important;\n    margin-left: 0 !important;\n  }\n  .knowledgesContent .otherSkills {\n    grid-area: 3 !important;\n    margin-right: 0 !important;\n  }\n  .knowledgesContent .hobbies {\n    grid-area: 4 !important;\n    margin-top: 0.5rem !important;\n  }\n}\n.portfolio .portfolioContent {\n  width: 100%;\n  display: grid;\n  min-height: 95vh;\n  grid-template-columns: 1fr;\n  grid-template-rows: 50px 1fr;\n  grid-template-areas: \"1\" \"2\";\n}\n.portfolio .radioDisplay {\n  grid-area: 1;\n  border-radius: 25px;\n  display: flex;\n  width: 100%;\n  padding: 1rem 2rem;\n  margin: 0 auto;\n  background: #2352d4;\n  -webkit-user-select: none;\n          user-select: none;\n  box-shadow: 0 1px 3px #333;\n}\n.portfolio .radioDisplay li {\n  color: #63e985;\n  font-size: 1.1rem;\n  text-transform: uppercase;\n  padding: 0 1rem;\n  flex: 1 1;\n  z-index: 2;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.portfolio .radioDisplay li input[type=radio] {\n  visibility: hidden;\n  position: relative;\n}\n.portfolio .radioDisplay li input[type=radio]:before {\n  content: \"\";\n  visibility: visible;\n  position: absolute;\n  top: -4px;\n  left: -12px;\n  height: 0.9rem;\n  width: 0.9rem;\n  border-radius: 50%;\n  border: 2px solid #4fedd2;\n  cursor: pointer;\n  transition: 0.3s;\n}\n.portfolio .radioDisplay li input[type=radio]:after {\n  content: \"\";\n  visibility: visible;\n  position: absolute;\n  top: -4px;\n  left: -12px;\n  height: 0.9rem;\n  width: 0.9rem;\n  border-radius: 50%;\n  cursor: pointer;\n  transition: 0.3s;\n  background: #4fedd2;\n  transform: scale(0);\n  transform-origin: center;\n}\n.portfolio .radioDisplay li input:checked:after {\n  transform: scale(1.17) translate(-25%, -25%);\n  top: 2px;\n  left: -6px;\n}\n.portfolio .radioDisplay li input:checked + label {\n  color: #4fedd2;\n}\n.portfolio .radioDisplay li label {\n  cursor: pointer;\n}\n.portfolio .projects {\n  grid-area: 2;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-around;\n}\n.portfolio .projects .project {\n  background: #6c77f4;\n  border-radius: 25px;\n  margin: 0.5rem 0 0 0;\n  text-align: center;\n  width: 32%;\n  max-height: 50%;\n  padding: 0.3rem;\n  box-shadow: 0 1px 3px #333;\n  display: grid;\n  grid-template-rows: 15% 15% 55% 15%;\n  grid-template-areas: \"1\" \"2\" \"3\" \"4\";\n}\n.portfolio .projects .icons {\n  grid-area: 1;\n  display: flex;\n  justify-content: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.portfolio .projects .icons i {\n  font-size: 1.4rem;\n  padding: 0 0.35rem;\n  color: #36d0ea;\n  text-shadow: 0 0px 1px #2352d4;\n}\n.portfolio .projects h3 {\n  grid-area: 2;\n  font-family: \"Dosis\", sans-serif;\n  font-size: 1.65rem;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  justify-content: left;\n}\n.portfolio .projects img {\n  grid-area: 3;\n  object-fit: cover;\n  margin: 0 auto;\n  width: 100%;\n  height: 55%;\n  box-shadow: 0 2px 6px #333;\n  border-radius: 4px;\n  cursor: pointer;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.portfolio .projects .infos {\n  grid-area: 4;\n  color: #4fedd2;\n  cursor: pointer;\n  font-size: 1.5rem;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: 0.2s;\n}\n.portfolio .projects .infos:hover {\n  transform: scale(1.1);\n}\n.portfolio .projects .showInfos {\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  background: rgba(0, 0, 0, 0.507);\n  animation: popup 0.3s ease forwards;\n  transform-origin: center;\n}\n.portfolio .projects .showInfos .infosContent {\n  position: relative;\n  top: 25%;\n  width: 600px;\n  margin: 0 auto;\n  color: #36d0ea;\n  background: #2352d4;\n  border-radius: 25px;\n  padding: 2rem;\n  box-shadow: 0 10px 10px #333;\n  animation: popup 0.6s ease forwards;\n  transform: scale(0);\n  transform-origin: center;\n}\n@keyframes popup {\n  to {\n    transform: scale(1);\n  }\n}\n.portfolio .projects .showInfos .head {\n  display: flex;\n  justify-content: space-around;\n  margin: 1rem 0;\n}\n.portfolio .projects .showInfos h2 {\n  text-align: left;\n  margin-bottom: 1rem;\n}\n.portfolio .projects .showInfos .button {\n  cursor: pointer;\n  color: #2352d4;\n  background: #36d0ea;\n  border-radius: 25px;\n  padding: 1rem;\n  transition: 0.2s;\n}\n.portfolio .projects .showInfos .button:hover {\n  background: #4fedd2;\n}\n.portfolio .projects .showInfos .text {\n  text-align: justify;\n  padding-bottom: 1rem;\n}\n.portfolio .projects .showInfos .return {\n  margin: 1rem auto;\n  width: 200px;\n}\n\n@media (max-width: 650px) and (min-width: 521px) {\n  .portfolioContent .project {\n    width: 49% !important;\n  }\n  .portfolioContent .project i {\n    font-size: 1rem;\n  }\n  .portfolioContent .infosContent {\n    width: 100% !important;\n  }\n}\n@media (max-width: 520px) {\n  .radioDisplay {\n    display: none !important;\n  }\n\n  .portfolioContent {\n    grid-template-rows: 1fr !important;\n  }\n  .portfolioContent .project {\n    grid-template-rows: 30px 40px 80px 40px !important;\n    width: 98% !important;\n  }\n  .portfolioContent .project img {\n    height: 100% !important;\n  }\n}\n.notFound {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 95vh;\n  max-width: 1200px;\n  background: #63e985;\n  border-radius: 25px;\n  text-align: center;\n}\n.notFound h3 {\n  margin-bottom: 3rem;\n  font-size: 2rem;\n}\n.notFound a {\n  padding: 1rem 2rem;\n  border-radius: 25px;\n  background: #36d0ea;\n  transition: 0.2s;\n}\n.notFound a:hover {\n  background: #4fedd2;\n}\n\n.sidebar {\n  background: #2352d4;\n  font-family: \"Nova Round\", cursive;\n  height: 100%;\n  min-height: 95vh;\n  min-width: 264px;\n  border-radius: 25px;\n  position: relative;\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 250px 1fr 108px;\n  grid-template-areas: \"1\" \"2\" \"3\";\n}\n.sidebar .id {\n  grid-area: 1;\n  text-align: center;\n  -webkit-user-select: none;\n          user-select: none;\n  position: relative;\n}\n.sidebar .id .idContent {\n  position: absolute;\n  bottom: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 100%;\n}\n.sidebar .id .idContent img {\n  border-radius: 50%;\n  box-shadow: 0 0 0 4px #63e985, 0 0 0 8px #4fedd2, 0 0 0 12px #6c77f4;\n}\n.sidebar .id .idContent h3 {\n  font-size: 1.3rem;\n  text-transform: uppercase;\n  letter-spacing: 0.2rem;\n  margin-top: 1.5rem;\n  color: #36d0ea;\n}\n.sidebar .navigation {\n  grid-area: 2;\n  padding: 2rem 1rem;\n}\n.sidebar .navigation ul {\n  height: 100%;\n  display: grid;\n}\n.sidebar .navigation ul li {\n  padding: 1rem 0 1rem 0.4rem;\n  font-size: 1.3rem;\n  position: relative;\n}\n.sidebar .navigation ul li:hover i {\n  transform: translate(4px, 4px);\n}\n.sidebar .navigation ul li a {\n  color: #36d0ea;\n}\n.sidebar .navigation ul li .navActive {\n  color: #4fedd2;\n}\n.sidebar .navigation ul li i {\n  position: absolute;\n  font-size: 0.95rem;\n  transform: translateY(3px);\n  transition: 0.2s ease;\n}\n.sidebar .navigation ul li span {\n  margin-left: 3rem;\n}\n.sidebar .socialNetwork {\n  grid-area: 3;\n}\n.sidebar .socialNetwork ul {\n  display: flex;\n  width: 264px;\n  padding: 0 14px;\n  justify-content: space-between;\n}\n.sidebar .socialNetwork ul li {\n  font-size: 1.5rem;\n  background: #36d0ea;\n  color: #2352d4;\n  border-radius: 50%;\n  padding: 0.5rem 0.8rem;\n  transition: 0.3s;\n  cursor: pointer;\n}\n.sidebar .socialNetwork ul li a:visited {\n  color: #2352d4;\n}\n.sidebar .socialNetwork ul li:nth-child(1) {\n  padding: 0.5rem 0.85rem;\n}\n.sidebar .socialNetwork ul li:nth-child(4) {\n  padding: 0.5rem 0.75rem;\n}\n.sidebar .socialNetwork ul li:hover {\n  background: #4fedd2;\n}\n.sidebar .socialNetwork .signature {\n  margin-top: 2rem;\n  text-align: center;\n  letter-spacing: 0.1rem;\n  font-size: 0.7rem;\n}\n.sidebar .socialNetwork .signature a,\n.sidebar .socialNetwork .signature a:visited {\n  color: #36d0ea;\n}\n.sidebar .socialNetwork .signature a:hover,\n.sidebar .socialNetwork .signature a:visited:hover {\n  color: #4fedd2;\n}\n\n@media screen and (max-width: 850px) {\n  .sidebar {\n    display: flex;\n    min-height: 50px;\n    margin-bottom: 0.2rem;\n  }\n  .sidebar .id,\n.sidebar .socialNetwork {\n    display: none;\n  }\n  .sidebar .navigation {\n    width: 100%;\n    padding: 0.1rem 1rem;\n  }\n  .sidebar .navigation ul {\n    display: flex;\n    justify-content: space-between;\n  }\n  .sidebar .navigation ul span {\n    margin-left: 1.5rem !important;\n  }\n}\n@media screen and (max-width: 580px) {\n  .sidebar ul {\n    justify-content: space-around !important;\n  }\n  .sidebar ul li {\n    padding: 1rem 0 !important;\n  }\n  .sidebar ul i {\n    font-size: 1.4rem !important;\n    transform: translateY(-3px) !important;\n  }\n}\n@media screen and (max-width: 580px) and (max-width: 580px) {\n  .sidebar ul span {\n    display: none;\n  }\n}", "",{"version":3,"sources":["webpack://src/styles/_settings.scss","webpack://src/styles/styles.scss","webpack://src/styles/pages/_contact.scss","webpack://src/styles/pages/_home.scss","webpack://src/styles/pages/_knowledges.scss","webpack://src/styles/pages/_portfolio.scss","webpack://src/styles/pages/_notFound.scss","webpack://src/styles/components/_navigation.scss"],"names":[],"mappings":"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","sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap\");\n\n$font-1: \"Nova Round\", cursive;\n$font-2: \"Dosis\", sans-serif;\n$font-3: \"Josefin Sans\", serif;\n\n$color-1: #2352d4;\n$color-2: #6c77f4;\n$color-3: rgb(99, 233, 133);\n$color-4: #4fedd2;\n$color-5: #36d0ea;\n$white: #ddd;\n$black: #333;\n\n$borderRadius: 25px;\n$shadow: 0 1px 3px #333;\n$minHeight: 95vh;\n\n@mixin verticalCenter {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\nbody {\n  margin: 1rem auto;\n  max-width: 1200px;\n  font-family: $font-1;\n  color: $black;\n}\nbutton {\n  cursor: pointer;\n}\nli {\n  list-style-type: none;\n  margin-left: 1.2rem;\n  padding: 2px;\n  font-weight: bolder;\n}\nli spam {\n  margin-left: 1.7rem;\n}\na {\n  text-decoration: none;\n  color: $black;\n  cursor: pointer;\n}\na:visited {\n  color: $black;\n}\n.home,\n.knowledges,\n.portfolio,\n.contact {\n  display: flex;\n\n  @media screen and (max-width: 850px) {\n    display: block !important;\n  }\n}\n.homeContent,\n.knowledgesContent,\n.portfolioContent,\n.contactContent {\n  @media screen and (max-width: 850px) {\n    margin-left: 0 !important;\n  }\n}\n","@import url(\"https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap\");\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  margin: 1rem auto;\n  max-width: 1200px;\n  font-family: \"Nova Round\", cursive;\n  color: #333;\n}\n\nbutton {\n  cursor: pointer;\n}\n\nli {\n  list-style-type: none;\n  margin-left: 1.2rem;\n  padding: 2px;\n  font-weight: bolder;\n}\n\nli spam {\n  margin-left: 1.7rem;\n}\n\na {\n  text-decoration: none;\n  color: #333;\n  cursor: pointer;\n}\n\na:visited {\n  color: #333;\n}\n\n.home,\n.knowledges,\n.portfolio,\n.contact {\n  display: flex;\n}\n@media screen and (max-width: 850px) {\n  .home,\n.knowledges,\n.portfolio,\n.contact {\n    display: block !important;\n  }\n}\n\n@media screen and (max-width: 850px) {\n  .homeContent,\n.knowledgesContent,\n.portfolioContent,\n.contactContent {\n    margin-left: 0 !important;\n  }\n}\n\n.contactContent {\n  background: #63e985;\n  border-radius: 25px;\n  width: 100%;\n  overflow: hidden;\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 20% 45% 35%;\n  grid-template-areas: \"1\" \"2\" \"3\";\n}\n.contactContent .header {\n  grid-area: 1;\n  width: 100%;\n  position: relative;\n  background: #2352d4;\n  height: 340px;\n}\n.contactContent .header:before {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  background: url(../../media/map.jpg) no-repeat center top/cover;\n  filter: grayscale(100%);\n}\n.contactContent .header:after {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 30px;\n  background: url(../../media/shape.svg) no-repeat center/cover;\n}\n.contactContent .contactBox {\n  grid-area: 2;\n  background: #36d0ea;\n  margin: 0 auto;\n  padding: 1rem 3rem;\n  z-index: 2;\n  border-radius: 25px;\n  box-shadow: 0 3px 10px #333;\n  width: 50%;\n  min-width: 440px;\n  min-height: 200px;\n}\n.contactContent .contactBox h1 {\n  text-align: center;\n  margin-top: 0.3rem;\n  position: relative;\n  color: #6c77f4;\n}\n.contactContent .contactBox h1:after {\n  content: \"\";\n  height: 1px;\n  width: 50%;\n  background: #2352d4;\n  position: absolute;\n  bottom: -25px;\n  left: 50%;\n  transform: translateX(-50%);\n}\n.contactContent .contactBox ul {\n  height: 72%;\n  width: inherit;\n  display: grid;\n  margin-top: 3.5rem;\n}\n.contactContent .contactBox ul li {\n  position: relative;\n}\n.contactContent .contactBox ul i {\n  font-size: 1.4rem;\n  position: absolute;\n  transform: translateY(2px);\n  color: #6c77f4;\n}\n.contactContent .contactBox ul span {\n  font-size: 1.4rem;\n  position: absolute;\n  transform: translateX(52px);\n  background: transparent;\n  border: none;\n  outline: none;\n  width: 350px;\n  transition: 0.2s ease;\n}\n.contactContent .contactBox ul .clickInput:hover {\n  transform: translateX(56px);\n  cursor: pointer;\n}\n.contactContent .socialNetwork {\n  grid-area: 3;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.contactContent .socialNetwork ul {\n  display: flex;\n  text-align: center;\n  width: 100%;\n  justify-content: space-around;\n}\n.contactContent .socialNetwork ul a {\n  width: 20%;\n  font-size: 1.2rem;\n  background: #36d0ea;\n  border-radius: 25px;\n  display: inline-block;\n  padding: 0.7rem 0;\n  box-shadow: 0 1px 3px #333;\n  transform: scaleY(0);\n  transform-origin: top;\n  transition: 0.2s ease;\n  transition: scale 0.1s;\n}\n.contactContent .socialNetwork ul a:hover {\n  background: #4fedd2;\n}\n.contactContent .socialNetwork ul a i {\n  color: #6c77f4;\n  margin-top: 0.3rem;\n}\n@keyframes pop {\n  to {\n    transform: scaleY(1);\n  }\n}\n.contactContent .socialNetwork ul a:nth-child(1) {\n  animation: pop 1s forwards;\n  animation-delay: 0.4s;\n}\n.contactContent .socialNetwork ul a:nth-child(2) {\n  animation: pop 1s forwards;\n  animation-delay: 0.8s;\n}\n.contactContent .socialNetwork ul a:nth-child(3) {\n  animation: pop 1s forwards;\n  animation-delay: 1.2s;\n}\n.contactContent .socialNetwork ul a:nth-child(4) {\n  animation: pop 1s forwards;\n  animation-delay: 1.6s;\n}\n\n@media screen and (max-width: 500px) {\n  .contactContent .contactBox {\n    min-width: 100% !important;\n  }\n  .contactContent span {\n    font-size: 0.9rem !important;\n  }\n  .contactContent h4 {\n    font-size: 0.9rem;\n  }\n}\n.home .homeContent {\n  background: linear-gradient(115deg, #2352d4 50%, transparent 100%);\n  min-height: 95vh;\n  width: 100%;\n  min-height: 500px;\n  border-radius: 25px;\n  position: relative;\n  overflow: hidden;\n}\n.home .homeContent:after {\n  content: \"test\";\n  position: absolute;\n  height: 100%;\n  width: inherit;\n  background: url(\"../../media/bigGates.jpg\") no-repeat center/cover;\n  z-index: -1;\n  filter: brightness(30%);\n}\n.home .homeContent .content {\n  position: absolute;\n  top: 20%;\n  left: 13%;\n  font-family: \"Nova Round\", cursive;\n}\n.home .homeContent .content h1 {\n  font-size: 5rem;\n  font-family: \"Josefin Sans\", serif;\n  color: #36d0ea;\n  text-transform: uppercase;\n  text-shadow: 3px 6px 2px #333;\n}\n.home .homeContent .content h2 {\n  font-size: 2.5rem;\n  padding: 1.5rem 0 7rem;\n  color: #63e985;\n  text-shadow: 1px 4px 1px #333;\n}\n.home .homeContent .content .pdf a {\n  font-size: 1.5rem;\n  background: #63e985;\n  padding: 1rem 2rem;\n  border-radius: 25px;\n  box-shadow: 0 5px 1px #0f0f0f;\n  transition: 0.2s ease;\n}\n.home .homeContent .content .pdf a:hover {\n  background: #4fedd2;\n}\n\n@media screen and (max-width: 850px) {\n  .homeContent {\n    margin: 0 !important;\n  }\n}\n@media screen and (max-width: 580px) {\n  .homeContent:after {\n    background: url(\"../../media/bigGates.jpg\") no-repeat 60% 50%/cover !important;\n  }\n  .homeContent h1 {\n    font-size: 3rem !important;\n  }\n  .homeContent h2 {\n    font-size: 1.8rem !important;\n  }\n}\n.knowledges .knowledgesContent {\n  min-height: 95vh;\n  width: 100%;\n  position: relative;\n  overflow: hidden;\n  display: grid;\n  grid-template-columns: 38% 1fr 1fr;\n  grid-template-rows: 70% 30%;\n  grid-template-areas: \"L E E\" \"O O H\";\n}\n.knowledges .knowledgesContent .languagesFrameworks, .knowledges .knowledgesContent .experience, .knowledges .knowledgesContent .otherSkills, .knowledges .knowledgesContent .hobbies {\n  background: #6c77f4;\n  border-radius: 25px;\n  padding: 0.8rem;\n}\n.knowledges .knowledgesContent h3 {\n  font-size: 1.4rem;\n  margin-bottom: 1rem;\n  font-family: \"Dosis\", sans-serif;\n  color: #36d0ea;\n  text-transform: uppercase;\n}\n.knowledges .knowledgesContent .languagesFrameworks {\n  grid-area: L;\n  margin-bottom: 0.5rem;\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 1fr 1fr;\n  grid-template-areas: \"L\" \"F\";\n}\n.knowledges .knowledgesContent .languagesFrameworks .languageDisplay {\n  grid-area: L;\n}\n.knowledges .knowledgesContent .languagesFrameworks .frameworkDisplay {\n  grid-area: F;\n}\n.knowledges .knowledgesContent .languagesFrameworks h3 {\n  margin-bottom: 0.3rem;\n}\n.knowledges .knowledgesContent .languagesFrameworks .years {\n  font-size: 0.65rem;\n  display: flex;\n  justify-content: space-between;\n  color: #ddd;\n}\n.knowledges .knowledgesContent .languagesFrameworks .years span {\n  width: 36%;\n}\n.knowledges .knowledgesContent .languagesFrameworks .years span:nth-child(2) {\n  text-align: center;\n  width: 20%;\n}\n.knowledges .knowledgesContent .languagesFrameworks .years span:nth-child(3) {\n  text-align: right;\n  width: 44%;\n}\n.knowledges .knowledgesContent .languagesFrameworks .years span:nth-child(2):before, .knowledges .knowledgesContent .languagesFrameworks .years span:nth-child(3):before {\n  content: \"\";\n  background: rgba(180, 179, 179, 0.507);\n  position: absolute;\n  height: 146px;\n  width: 1px;\n  transform: translate(9px, 19px);\n}\n.knowledges .knowledgesContent .languagesFrameworks .languagesList {\n  padding-top: 0.5rem;\n}\n.knowledges .knowledgesContent .languagesFrameworks .languagesList li {\n  color: #2352d4;\n}\n.knowledges .knowledgesContent .languagesFrameworks .languagesList .progressBar {\n  height: 0.4rem;\n  background: transparent;\n  border-radius: 50px;\n  margin-top: 0.2rem;\n  position: relative;\n}\n.knowledges .knowledgesContent .languagesFrameworks .languagesList .progressBar:after {\n  content: \"\";\n  position: absolute;\n  background: #63e985;\n  border-radius: 50px;\n  height: 0.4rem;\n  width: 0;\n  animation: line 2s ease-out forwards;\n}\n@keyframes line {\n  to {\n    width: 100%;\n  }\n}\n.knowledges .knowledgesContent .experience {\n  grid-area: E;\n  margin: 0 0 0.5rem 0.5rem;\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 10% 1fr 1fr;\n  grid-template-areas: \"1\" \"2\" \"3\";\n}\n.knowledges .knowledgesContent .experience h3 {\n  grid-area: 1;\n}\n.knowledges .knowledgesContent .experience h4 {\n  font-size: 1.1rem;\n  color: #36d0ea;\n}\n.knowledges .knowledgesContent .experience h5 {\n  color: #63e985;\n  padding: 0.5rem 0 0.5rem 1rem;\n}\n.knowledges .knowledgesContent .experience p {\n  text-align: justify;\n  padding: 0 1rem;\n}\n.knowledges .knowledgesContent .experience .exp-1 {\n  grid-area: 2;\n}\n.knowledges .knowledgesContent .experience .exp-2 {\n  grid-area: 3;\n}\n.knowledges .knowledgesContent .otherSkills {\n  grid-area: O;\n  margin-right: 0.5rem;\n}\n.knowledges .knowledgesContent .otherSkills .list {\n  display: flex;\n  width: 80%;\n  height: 100%;\n  margin: 0 auto;\n  justify-content: space-between;\n}\n.knowledges .knowledgesContent .otherSkills .list ul {\n  height: 80%;\n  display: grid;\n}\n.knowledges .knowledgesContent .otherSkills .list ul i {\n  color: #36d0ea;\n}\n.knowledges .knowledgesContent .hobbies {\n  grid-area: H;\n  padding-left: 1.5rem;\n}\n.knowledges .knowledgesContent .hobbies ul {\n  height: 80%;\n  display: grid;\n}\n.knowledges .knowledgesContent .hobbies ul li i {\n  position: absolute;\n  color: #36d0ea;\n}\n.knowledges .knowledgesContent .hobbies ul li span {\n  position: absolute;\n  transform: translateX(2.2rem);\n}\n\n@media screen and (max-width: 950px) {\n  .knowledgesContent h3 {\n    font-size: 1.2rem !important;\n  }\n  .knowledgesContent .languagesList {\n    padding-top: 0.2rem !important;\n  }\n  .knowledgesContent p {\n    font-size: 0.8rem;\n  }\n  .knowledgesContent .otherSkills, .knowledgesContent .hobbies {\n    font-size: 0.8rem;\n  }\n}\n@media screen and (max-width: 850px) {\n  .knowledgesContent h4 {\n    font-size: 0.9rem !important;\n  }\n  .knowledgesContent h5 {\n    font-size: 0.6rem !important;\n    padding: 0.2rem 1rem !important;\n  }\n}\n@media screen and (max-width: 500px) {\n  .knowledgesContent {\n    display: grid !important;\n    grid-template-columns: 1fr !important;\n    grid-template-rows: 1fr 1fr 180px 180px !important;\n    grid-template-areas: \"1\" \"2\" \"3\" \"4\" !important;\n  }\n  .knowledgesContent .languages {\n    grid-area: 1 !important;\n  }\n  .knowledgesContent .experience {\n    grid-area: 2 !important;\n    margin-left: 0 !important;\n  }\n  .knowledgesContent .otherSkills {\n    grid-area: 3 !important;\n    margin-right: 0 !important;\n  }\n  .knowledgesContent .hobbies {\n    grid-area: 4 !important;\n    margin-top: 0.5rem !important;\n  }\n}\n.portfolio .portfolioContent {\n  width: 100%;\n  display: grid;\n  min-height: 95vh;\n  grid-template-columns: 1fr;\n  grid-template-rows: 50px 1fr;\n  grid-template-areas: \"1\" \"2\";\n}\n.portfolio .radioDisplay {\n  grid-area: 1;\n  border-radius: 25px;\n  display: flex;\n  width: 100%;\n  padding: 1rem 2rem;\n  margin: 0 auto;\n  background: #2352d4;\n  user-select: none;\n  box-shadow: 0 1px 3px #333;\n}\n.portfolio .radioDisplay li {\n  color: #63e985;\n  font-size: 1.1rem;\n  text-transform: uppercase;\n  padding: 0 1rem;\n  flex: 1;\n  z-index: 2;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.portfolio .radioDisplay li input[type=radio] {\n  visibility: hidden;\n  position: relative;\n}\n.portfolio .radioDisplay li input[type=radio]:before {\n  content: \"\";\n  visibility: visible;\n  position: absolute;\n  top: -4px;\n  left: -12px;\n  height: 0.9rem;\n  width: 0.9rem;\n  border-radius: 50%;\n  border: 2px solid #4fedd2;\n  cursor: pointer;\n  transition: 0.3s;\n}\n.portfolio .radioDisplay li input[type=radio]:after {\n  content: \"\";\n  visibility: visible;\n  position: absolute;\n  top: -4px;\n  left: -12px;\n  height: 0.9rem;\n  width: 0.9rem;\n  border-radius: 50%;\n  cursor: pointer;\n  transition: 0.3s;\n  background: #4fedd2;\n  transform: scale(0);\n  transform-origin: center;\n}\n.portfolio .radioDisplay li input:checked:after {\n  transform: scale(1.17) translate(-25%, -25%);\n  top: 2px;\n  left: -6px;\n}\n.portfolio .radioDisplay li input:checked + label {\n  color: #4fedd2;\n}\n.portfolio .radioDisplay li label {\n  cursor: pointer;\n}\n.portfolio .projects {\n  grid-area: 2;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-around;\n}\n.portfolio .projects .project {\n  background: #6c77f4;\n  border-radius: 25px;\n  margin: 0.5rem 0 0 0;\n  text-align: center;\n  width: 32%;\n  max-height: 50%;\n  padding: 0.3rem;\n  box-shadow: 0 1px 3px #333;\n  display: grid;\n  grid-template-rows: 15% 15% 55% 15%;\n  grid-template-areas: \"1\" \"2\" \"3\" \"4\";\n}\n.portfolio .projects .icons {\n  grid-area: 1;\n  display: flex;\n  justify-content: center;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.portfolio .projects .icons i {\n  font-size: 1.4rem;\n  padding: 0 0.35rem;\n  color: #36d0ea;\n  text-shadow: 0 0px 1px #2352d4;\n}\n.portfolio .projects h3 {\n  grid-area: 2;\n  font-family: \"Dosis\", sans-serif;\n  font-size: 1.65rem;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  justify-content: left;\n}\n.portfolio .projects img {\n  grid-area: 3;\n  object-fit: cover;\n  margin: 0 auto;\n  width: 100%;\n  height: 55%;\n  box-shadow: 0 2px 6px #333;\n  border-radius: 4px;\n  cursor: pointer;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.portfolio .projects .infos {\n  grid-area: 4;\n  color: #4fedd2;\n  cursor: pointer;\n  font-size: 1.5rem;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: 0.2s;\n}\n.portfolio .projects .infos:hover {\n  transform: scale(1.1);\n}\n.portfolio .projects .showInfos {\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  background: rgba(0, 0, 0, 0.507);\n  animation: popup 0.3s ease forwards;\n  transform-origin: center;\n}\n.portfolio .projects .showInfos .infosContent {\n  position: relative;\n  top: 25%;\n  width: 600px;\n  margin: 0 auto;\n  color: #36d0ea;\n  background: #2352d4;\n  border-radius: 25px;\n  padding: 2rem;\n  box-shadow: 0 10px 10px #333;\n  animation: popup 0.6s ease forwards;\n  transform: scale(0);\n  transform-origin: center;\n}\n@keyframes popup {\n  to {\n    transform: scale(1);\n  }\n}\n.portfolio .projects .showInfos .head {\n  display: flex;\n  justify-content: space-around;\n  margin: 1rem 0;\n}\n.portfolio .projects .showInfos h2 {\n  text-align: left;\n  margin-bottom: 1rem;\n}\n.portfolio .projects .showInfos .button {\n  cursor: pointer;\n  color: #2352d4;\n  background: #36d0ea;\n  border-radius: 25px;\n  padding: 1rem;\n  transition: 0.2s;\n}\n.portfolio .projects .showInfos .button:hover {\n  background: #4fedd2;\n}\n.portfolio .projects .showInfos .text {\n  text-align: justify;\n  padding-bottom: 1rem;\n}\n.portfolio .projects .showInfos .return {\n  margin: 1rem auto;\n  width: 200px;\n}\n\n@media (max-width: 650px) and (min-width: 521px) {\n  .portfolioContent .project {\n    width: 49% !important;\n  }\n  .portfolioContent .project i {\n    font-size: 1rem;\n  }\n  .portfolioContent .infosContent {\n    width: 100% !important;\n  }\n}\n@media (max-width: 520px) {\n  .radioDisplay {\n    display: none !important;\n  }\n\n  .portfolioContent {\n    grid-template-rows: 1fr !important;\n  }\n  .portfolioContent .project {\n    grid-template-rows: 30px 40px 80px 40px !important;\n    width: 98% !important;\n  }\n  .portfolioContent .project img {\n    height: 100% !important;\n  }\n}\n.notFound {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 95vh;\n  max-width: 1200px;\n  background: #63e985;\n  border-radius: 25px;\n  text-align: center;\n}\n.notFound h3 {\n  margin-bottom: 3rem;\n  font-size: 2rem;\n}\n.notFound a {\n  padding: 1rem 2rem;\n  border-radius: 25px;\n  background: #36d0ea;\n  transition: 0.2s;\n}\n.notFound a:hover {\n  background: #4fedd2;\n}\n\n.sidebar {\n  background: #2352d4;\n  font-family: \"Nova Round\", cursive;\n  height: 100%;\n  min-height: 95vh;\n  min-width: 264px;\n  border-radius: 25px;\n  position: relative;\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 250px 1fr 108px;\n  grid-template-areas: \"1\" \"2\" \"3\";\n}\n.sidebar .id {\n  grid-area: 1;\n  text-align: center;\n  user-select: none;\n  position: relative;\n}\n.sidebar .id .idContent {\n  position: absolute;\n  bottom: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 100%;\n}\n.sidebar .id .idContent img {\n  border-radius: 50%;\n  box-shadow: 0 0 0 4px #63e985, 0 0 0 8px #4fedd2, 0 0 0 12px #6c77f4;\n}\n.sidebar .id .idContent h3 {\n  font-size: 1.3rem;\n  text-transform: uppercase;\n  letter-spacing: 0.2rem;\n  margin-top: 1.5rem;\n  color: #36d0ea;\n}\n.sidebar .navigation {\n  grid-area: 2;\n  padding: 2rem 1rem;\n}\n.sidebar .navigation ul {\n  height: 100%;\n  display: grid;\n}\n.sidebar .navigation ul li {\n  padding: 1rem 0 1rem 0.4rem;\n  font-size: 1.3rem;\n  position: relative;\n}\n.sidebar .navigation ul li:hover i {\n  transform: translate(4px, 4px);\n}\n.sidebar .navigation ul li a {\n  color: #36d0ea;\n}\n.sidebar .navigation ul li .navActive {\n  color: #4fedd2;\n}\n.sidebar .navigation ul li i {\n  position: absolute;\n  font-size: 0.95rem;\n  transform: translateY(3px);\n  transition: 0.2s ease;\n}\n.sidebar .navigation ul li span {\n  margin-left: 3rem;\n}\n.sidebar .socialNetwork {\n  grid-area: 3;\n}\n.sidebar .socialNetwork ul {\n  display: flex;\n  width: 264px;\n  padding: 0 14px;\n  justify-content: space-between;\n}\n.sidebar .socialNetwork ul li {\n  font-size: 1.5rem;\n  background: #36d0ea;\n  color: #2352d4;\n  border-radius: 50%;\n  padding: 0.5rem 0.8rem;\n  transition: 0.3s;\n  cursor: pointer;\n}\n.sidebar .socialNetwork ul li a:visited {\n  color: #2352d4;\n}\n.sidebar .socialNetwork ul li:nth-child(1) {\n  padding: 0.5rem 0.85rem;\n}\n.sidebar .socialNetwork ul li:nth-child(4) {\n  padding: 0.5rem 0.75rem;\n}\n.sidebar .socialNetwork ul li:hover {\n  background: #4fedd2;\n}\n.sidebar .socialNetwork .signature {\n  margin-top: 2rem;\n  text-align: center;\n  letter-spacing: 0.1rem;\n  font-size: 0.7rem;\n}\n.sidebar .socialNetwork .signature a,\n.sidebar .socialNetwork .signature a:visited {\n  color: #36d0ea;\n}\n.sidebar .socialNetwork .signature a:hover,\n.sidebar .socialNetwork .signature a:visited:hover {\n  color: #4fedd2;\n}\n\n@media screen and (max-width: 850px) {\n  .sidebar {\n    display: flex;\n    min-height: 50px;\n    margin-bottom: 0.2rem;\n  }\n  .sidebar .id,\n.sidebar .socialNetwork {\n    display: none;\n  }\n  .sidebar .navigation {\n    width: 100%;\n    padding: 0.1rem 1rem;\n  }\n  .sidebar .navigation ul {\n    display: flex;\n    justify-content: space-between;\n  }\n  .sidebar .navigation ul span {\n    margin-left: 1.5rem !important;\n  }\n}\n@media screen and (max-width: 580px) {\n  .sidebar ul {\n    justify-content: space-around !important;\n  }\n  .sidebar ul li {\n    padding: 1rem 0 !important;\n  }\n  .sidebar ul i {\n    font-size: 1.4rem !important;\n    transform: translateY(-3px) !important;\n  }\n}\n@media screen and (max-width: 580px) and (max-width: 580px) {\n  .sidebar ul span {\n    display: none;\n  }\n}",".contactContent {\n  background: $color-3;\n  border-radius: $borderRadius;\n  width: 100%;\n  overflow: hidden;\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 20% 45% 35%;\n  grid-template-areas: \n    \"1\"\n    \"2\"\n    \"3\";\n\n  .header {\n    grid-area: 1;\n    width: 100%;\n    position: relative;\n    background: $color-1;\n    height: 340px;\n\n    &:before {\n      content: '';\n      width: 100%;\n      height: 100%;\n      position: absolute;\n      background: url(../../media/map.jpg) no-repeat center top/cover;\n      filter: grayscale(100%);\n    }\n    &:after {\n      content: '';\n      width: 100%;\n      height: 100%;\n      position: absolute;\n      top: 30px;\n      background: url(../../media/shape.svg) no-repeat center /cover;\n\n    }\n  }\n  .contactBox {\n    grid-area: 2;\n    background: $color-5;\n    margin: 0 auto;\n    padding: 1rem 3rem;\n    z-index: 2;\n    border-radius: $borderRadius;\n    box-shadow: 0 3px 10px #333;\n    width: 50%;\n    min-width: 440px;\n    min-height: 200px;\n\n    h1 {\n      text-align: center;\n      margin-top: 0.3rem;\n      position: relative;\n      color: $color-2;\n\n      &:after {\n        content: '';\n        height: 1px;\n        width: 50%;\n        background: $color-1;\n        position: absolute;\n        bottom: -25px;\n        left: 50%;\n        transform: translateX(-50%);\n      }\n    }\n    ul {\n      height: 72%;\n      width: inherit;\n      display: grid;\n      margin-top: 3.5rem;\n\n      li {\n        position: relative;\n      }\n\n      i {\n        font-size: 1.4rem;\n        position: absolute;\n        transform: translateY(2px);\n        color: $color-2;\n      }\n      span {\n        font-size: 1.4rem;\n        position: absolute;\n        transform: translateX(52px);\n        background: transparent;\n        border: none;\n        outline: none;\n        width: 350px;\n        transition: .2s ease;\n      }\n      .clickInput:hover {\n        transform: translateX(56px);\n        cursor: pointer;\n      }\n    }\n  }\n  .socialNetwork {\n    grid-area: 3;\n    @include verticalCenter;\n\n    ul {\n      display: flex;\n      text-align: center;\n      width: 100%;\n      justify-content: space-around;\n\n      a {\n        width: 20%;\n        font-size: 1.2rem;\n        background: $color-5;\n        border-radius: $borderRadius;\n        display: inline-block;\n        padding: 0.7rem 0;\n        box-shadow: $shadow;\n        transform: scaleY(0);\n        transform-origin: top;\n        transition: .2s ease;\n        transition: scale .1s;\n\n        &:hover {\n          background: $color-4;\n        }\n\n        i {\n          color: $color-2;\n          margin-top: .3rem;\n        }\n      }\n      //ANIMATION\n      @mixin networkAnim($timeout) {\n        animation: pop 1s forwards;\n        animation-delay: $timeout;\n\n      }\n      @keyframes pop {\n        to {\n          transform: scaleY(1);\n        }\n      }\n      a:nth-child(1) {\n        @include networkAnim(.4s);\n      }\n      a:nth-child(2) {\n        @include networkAnim(.8s);\n      }\n      a:nth-child(3) {\n        @include networkAnim(1.2s);\n      }\n      a:nth-child(4) {\n        @include networkAnim(1.6s);\n      }\n    }\n  }\n}\n@media screen and (max-width: 500px){\n  .contactContent {\n    .contactBox {\n      min-width: 100% !important;\n    }\n    span {\n      font-size: .9rem !important;\n    }\n    h4 {\n      font-size: .9rem;\n    }\n  }\n}",".home {\n\n  .homeContent {\n    background: linear-gradient(115deg, $color-1 50%, transparent 100%);\n    min-height: $minHeight;\n    width: 100%;\n    min-height: 500px;\n    border-radius: $borderRadius;\n    position: relative;\n    overflow: hidden;\n\n    &:after {\n      content: 'test';\n      position: absolute;\n      height: 100%;\n      width: inherit;\n      background: url('../../media/bigGates.jpg') no-repeat center/cover;\n      z-index: -1;\n      filter: brightness(30%);\n    }\n\n    .content {\n      position: absolute;\n      top: 20%;\n      left: 13%;\n      font-family: $font-1;\n\n      h1 {\n        font-size: 5rem;\n        font-family: $font-3;\n        color: $color-5;\n        text-transform: uppercase;\n        text-shadow: 3px 6px 2px $black;\n      }\n      h2 {\n        font-size: 2.5rem;\n        padding: 1.5rem 0 7rem;\n        color: $color-3;\n        text-shadow: 1px 4px 1px $black;\n      }\n      .pdf {\n        a {\n          font-size: 1.5rem;\n          background: $color-3;\n          padding: 1rem 2rem;\n          border-radius: $borderRadius;\n          box-shadow: 0 5px 1px rgb(15, 15, 15);\n          transition: 0.2s ease;\n\n          &:hover {\n            background: $color-4;\n          }\n        }\n      }\n    }\n  }\n}\n@media screen and (max-width: 850px){\n  .homeContent {\n    margin: 0 !important;\n  }\n}\n@media screen and (max-width:580px){\n  .homeContent {\n    &:after {\n    background: url('../../media/bigGates.jpg') no-repeat 60% 50%/cover !important;\n    }\n    h1 {\n      font-size: 3rem !important;\n    }\n    h2 {\n      font-size: 1.8rem !important;\n    }\n  }\n}",".knowledges {\n  .knowledgesContent {\n    min-height: $minHeight;\n    width: 100%;\n    position: relative;\n    overflow: hidden;\n    display: grid;\n    grid-template-columns: 38% 1fr 1fr;\n    grid-template-rows: 70% 30%;\n    grid-template-areas: \n      \"L E E\"\n      \"O O H\";\n\n    .languagesFrameworks, .experience, .otherSkills, .hobbies {\n      background: $color-2;\n      border-radius: $borderRadius;\n      padding: .8rem;\n    }\n    h3 {\n      font-size: 1.4rem;\n      margin-bottom: 1rem;\n      font-family: $font-2;\n      color: $color-5;\n      text-transform: uppercase;\n    }\n\n    .languagesFrameworks {\n      grid-area: L;\n      margin-bottom: .5rem;\n      display: grid;\n      grid-template-columns: 1fr;\n      grid-template-rows: 1fr 1fr;\n      grid-template-areas: \n        \"L\"\n        \"F\";\n\n      .languageDisplay {\n        grid-area: L;\n      }\n      .frameworkDisplay {\n        grid-area: F;\n      }\n      h3 {\n        margin-bottom: 0.3rem;\n      }\n\n      .years {\n        font-size: .65rem;\n        display: flex;\n        justify-content: space-between;\n        color: $white;\n\n        span {\n          width: 36%;\n\n          &:nth-child(2){\n            text-align: center; \n            width: 20%;\n          }\n          &:nth-child(3){\n            text-align: right;\n            width: 44%;\n          }\n        \n          &:nth-child(2):before,\n          &:nth-child(3):before {\n            content:'';\n            background: rgba(180, 179, 179, 0.507);\n            position: absolute;\n            height: 146px;\n            width: 1px;\n            transform: translate(9px, 19px);\n          }\n        }\n      }\n      .languagesList {\n        padding-top: .5rem;\n\n        li {\n          color: $color-1;\n        }\n        .progressBar {\n          height: .4rem;\n          background: transparent;\n          border-radius: 50px;\n          margin-top: 0.2rem;\n          position: relative;\n\n          &:after {\n            content: '';\n            position: absolute;\n            background: $color-3;\n            border-radius: 50px;\n            height: .4rem;\n            width: 0;\n            animation: line 2s ease-out forwards;\n\n            @keyframes line {\n              to {\n                width: 100%;\n              }\n            }\n          }\n        }\n      }\n    }\n    .experience {\n      grid-area: E;\n      margin: 0 0 .5rem .5rem;\n      display: grid;\n      grid-template-columns: 1fr;\n      grid-template-rows: 10% 1fr 1fr;\n      grid-template-areas: \n        \"1\"\n        \"2\"\n        \"3\";\n      \n      h3 {\n        grid-area: 1;\n      }\n      h4 {\n        font-size: 1.1rem;\n        color: $color-5;\n      }\n      h5 {\n        color: $color-3;\n        padding: 0.5rem 0 0.5rem 1rem;\n      }\n      p {\n        text-align: justify;\n        padding: 0 1rem;\n      }\n      .exp-1 {\n        grid-area: 2;\n      }\n      .exp-2 {\n        grid-area: 3;\n      }\n    }\n    .otherSkills {\n      grid-area: O;\n      margin-right: 0.5rem;\n\n      .list {\n        display: flex;\n        width: 80%;\n        height: 100%;\n        margin: 0 auto;\n        justify-content: space-between;\n\n        ul {\n          height: 80%;\n          display: grid;\n\n          i {\n            color: $color-5;\n          }\n        }\n      }\n    }\n    .hobbies {\n      grid-area: H;\n      padding-left: 1.5rem;\n\n      ul {\n        height: 80%;\n        display: grid;\n\n        li {\n          i {\n            position: absolute;\n            color: $color-5;\n          }\n          span {\n            position: absolute;\n            transform: translateX(2.2rem);\n          }\n        }\n      }\n    }\n  }\n}\n@media screen and (max-width: 950px){\n  .knowledgesContent {\n    h3 {\n      font-size: 1.2rem !important;\n    }\n    .languagesList {\n      padding-top: .2rem !important;\n    }\n    p {\n      font-size: .8rem;\n    }\n    .otherSkills, .hobbies {\n      font-size: .8rem;\n    }\n  }\n}\n@media screen and (max-width: 850px){\n  .knowledgesContent {\n    h4 {\n      font-size: .9rem !important;\n    }\n    h5 {\n      font-size: .6rem !important;\n      padding: .2rem 1rem !important;\n    }\n  }\n}\n@media screen and (max-width: 500px){\n  .knowledgesContent {\n    display: grid !important;\n    grid-template-columns: 1fr !important;\n    grid-template-rows: 1fr 1fr 180px 180px !important;\n    grid-template-areas: \n      \"1\"\n      \"2\"\n      \"3\"\n      \"4\" !important;\n    \n    .languages {\n      grid-area: 1 !important;\n    }\n    .experience {\n      grid-area: 2 !important;\n      margin-left: 0 !important;\n    }\n    .otherSkills {\n      grid-area: 3 !important;\n      margin-right: 0 !important;\n    }\n    .hobbies {\n      grid-area: 4 !important;\n      margin-top: .5rem !important;\n    }\n  }\n}",".portfolio {\n  .portfolioContent {\n    width: 100%;\n    display: grid;\n    min-height: $minHeight;\n    grid-template-columns: 1fr;\n    grid-template-rows: 50px 1fr;\n    grid-template-areas:\n      \"1\"\n      \"2\";\n  }\n\n  .radioDisplay {\n    grid-area: 1;\n    border-radius: $borderRadius;\n    display: flex;\n    width: 100%;\n    padding: 1rem 2rem;\n    margin: 0 auto;\n    background: $color-1;\n    user-select: none;\n    box-shadow: $shadow;\n\n    li {\n      color: $color-3;\n      font-size: 1.1rem;\n      text-transform: uppercase;\n      padding: 0 1rem;\n      flex: 1;\n      z-index: 2;\n      @include verticalCenter;\n\n      input[type=\"radio\"] {\n        visibility: hidden;\n        position: relative;\n\n        &:before {\n          content: \"\";\n          visibility: visible;\n          position: absolute;\n          top: -4px;\n          left: -12px;\n          height: 0.9rem;\n          width: 0.9rem;\n          border-radius: 50%;\n          border: 2px solid $color-4;\n          cursor: pointer;\n          transition: 0.3s;\n        }\n        &:after {\n          content: \"\";\n          visibility: visible;\n          position: absolute;\n          top: -4px;\n          left: -12px;\n          height: 0.9rem;\n          width: 0.9rem;\n          border-radius: 50%;\n          cursor: pointer;\n          transition: 0.3s;\n          background: $color-4;\n          transform: scale(0);\n          transform-origin: center;\n        }\n      }\n      input:checked:after {\n        transform: scale(1.17) translate(-25%, -25%);\n        top: 2px;\n        left: -6px;\n      }\n      input:checked + label {\n        color: $color-4;\n      }\n      label {\n        cursor: pointer;\n      }\n    }\n  }\n  .projects {\n    grid-area: 2;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-around;\n\n    .project {\n      background: $color-2;\n      border-radius: $borderRadius;\n      margin: 0.5rem 0 0 0;\n      text-align: center;\n      width: 32%;\n      max-height: 50%;\n      padding: 0.3rem;\n      box-shadow: $shadow;\n      display: grid;\n      grid-template-rows: 15% 15% 55% 15%;\n      grid-template-areas:\n        \"1\"\n        \"2\"\n        \"3\"\n        \"4\";\n    }\n    .icons {\n      grid-area: 1;\n      display: flex;\n      justify-content: center;\n      @include verticalCenter;\n\n      i {\n        font-size: 1.4rem;\n\n        padding: 0 0.35rem;\n        color: $color-5;\n        text-shadow: 0 0px 1px $color-1;\n      }\n    }\n    h3 {\n      grid-area: 2;\n      font-family: $font-2;\n      font-size: 1.65rem;\n\n      @include verticalCenter;\n      justify-content: left;\n    }\n    img {\n      grid-area: 3;\n      object-fit: cover;\n      margin: 0 auto;\n      width: 100%;\n      height: 55%;\n      box-shadow: 0 2px 6px #333;\n      border-radius: 4px;\n      cursor: pointer;\n      @include verticalCenter;\n    }\n    .infos {\n      grid-area: 4;\n      color: $color-4;\n      cursor: pointer;\n      font-size: 1.5rem;\n      @include verticalCenter;\n      transition: 0.2s;\n\n      &:hover {\n        transform: scale(1.1);\n      }\n    }\n    .showInfos {\n      position: absolute;\n      top: 0;\n      left: 0;\n      bottom: 0;\n      right: 0;\n      background: rgba(0, 0, 0, 0.507);\n      animation: popup 0.3s ease forwards;\n      transform-origin: center;\n\n      .infosContent {\n        position: relative;\n        top: 25%;\n        width: 600px;\n        margin: 0 auto;\n        color: $color-5;\n        background: $color-1;\n        border-radius: $borderRadius;\n        padding: 2rem;\n        box-shadow: 0 10px 10px #333;\n        animation: popup 0.6s ease forwards;\n        transform: scale(0);\n        transform-origin: center;\n\n        @keyframes popup {\n          to {\n            transform: scale(1);\n          }\n        }\n      }\n      .head {\n        display: flex;\n        justify-content: space-around;\n        margin: 1rem 0;\n      }\n      h2 {\n        text-align: left;\n        margin-bottom: 1rem;\n      }\n      .button {\n        cursor: pointer;\n        color: $color-1;\n        background: $color-5;\n        border-radius: $borderRadius;\n        padding: 1rem;\n        transition: 0.2s;\n\n        &:hover {\n          background: $color-4;\n        }\n      }\n      .text {\n        text-align: justify;\n        padding-bottom: 1rem;\n      }\n      .return {\n        margin: 1rem auto;\n        width: 200px;\n      }\n    }\n  }\n}\n@media (max-width: 650px) and (min-width: 521px) {\n  .portfolioContent {\n    .project {\n      width: 49% !important;\n\n      i {\n        font-size: 1rem;\n      }\n    }\n    .infosContent {\n      width: 100% !important;\n    }\n  }\n}\n@media (max-width: 520px) {\n  .radioDisplay {\n    display: none !important;\n  }\n  .portfolioContent {\n    grid-template-rows: 1fr !important;\n\n    .project {\n      grid-template-rows: 30px 40px 80px 40px !important;\n      width: 98% !important;\n\n      img {\n        height: 100% !important;\n      }\n    }\n  }\n}\n",".notFound {\n  @include verticalCenter;\n  height: 95vh;\n  max-width: 1200px;\n  background: $color-3;\n  border-radius: $borderRadius;\n  text-align: center;\n\n  h3 {\n    margin-bottom: 3rem;\n    font-size: 2rem;\n  }\n  a {\n    padding: 1rem 2rem;\n    border-radius: $borderRadius;\n    background: $color-5;\n    transition: .2s;\n\n    &:hover {\n      background: $color-4;\n    }\n  }\n}",".sidebar {\n  background: $color-1;\n  font-family: $font-1;\n  height: 100%;\n  min-height: $minHeight;\n  min-width: 264px;\n  border-radius: $borderRadius;\n  position: relative;\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 250px 1fr 108px;\n  grid-template-areas:\n    \"1\"\n    \"2\"\n    \"3\";\n\n  .id {\n    grid-area: 1;\n    text-align: center;\n    user-select: none;\n    position: relative;\n\n    .idContent {\n      position: absolute;\n      bottom: 0;\n      left: 50%;\n      transform: translateX(-50%);\n      width: 100%;\n\n      img {\n        border-radius: 50%;\n        box-shadow: 0 0 0 4px $color-3, 0 0 0 8px $color-4, 0 0 0 12px $color-2;\n      }\n      h3 {\n        font-size: 1.3rem;\n        text-transform: uppercase;\n        letter-spacing: 0.2rem;\n        margin-top: 1.5rem;\n        color: $color-5;\n      }\n    }\n  }\n  .navigation {\n    grid-area: 2;\n    padding: 2rem 1rem;\n\n    ul {\n      height: 100%;\n      display: grid;\n\n      li {\n        padding: 1rem 0 1rem 0.4rem;\n        font-size: 1.3rem;\n        position: relative;\n\n        &:hover i {\n          transform: translate(4px, 4px);\n        }\n\n        a {\n          color: $color-5;\n        }\n        .navActive {\n          color: $color-4;\n        }\n\n        i {\n          position: absolute;\n          font-size: 0.95rem;\n          transform: translateY(3px);\n          transition: 0.2s ease;\n        }\n        span {\n          margin-left: 3rem;\n        }\n      }\n    }\n  }\n  .socialNetwork {\n    grid-area: 3;\n\n    ul {\n      display: flex;\n      width: 264px;\n      padding: 0 14px;\n      justify-content: space-between;\n\n      li {\n        font-size: 1.5rem;\n        background: $color-5;\n        color: $color-1;\n        border-radius: 50%;\n        padding: 0.5rem 0.8rem;\n        transition: 0.3s;\n        cursor: pointer;\n\n        a:visited {\n          color: $color-1;\n        }\n        &:nth-child(1) {\n          padding: 0.5rem 0.85rem;\n        }\n        &:nth-child(4) {\n          padding: 0.5rem 0.75rem;\n        }\n        &:hover {\n          background: $color-4;\n        }\n      }\n    }\n    .signature {\n      margin-top: 2rem;\n      text-align: center;\n      letter-spacing: 0.1rem;\n      font-size: 0.7rem;\n\n      a,\n      a:visited {\n        color: $color-5;\n\n        &:hover {\n          color: $color-4;\n        }\n      }\n    }\n  }\n}\n@media screen and (max-width: 850px) {\n  .sidebar {\n    display: flex;\n    min-height: 50px;\n    margin-bottom: 0.2rem;\n\n    .id,\n    .socialNetwork {\n      display: none;\n    }\n    .navigation {\n      width: 100%;\n      padding: 0.1rem 1rem;\n\n      ul {\n        display: flex;\n        justify-content: space-between;\n\n        span {\n          margin-left: 1.5rem !important;\n        }\n      }\n    }\n  }\n}\n@media screen and (max-width: 580px) {\n  .sidebar {\n    ul {\n      justify-content: space-around !important;\n\n      li {\n        padding: 1rem 0 !important;\n      }\n      i {\n        font-size: 1.4rem !important;\n        transform: translateY(-3px) !important;\n      }\n      span {\n        @media screen and (max-width: 580px) {\n          display: none;\n        }\n      }\n    }\n  }\n}\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  \************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".App {\n  text-align: center;\n}\n\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n.App-header {\n  background-color: #282c34;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n", "",{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;AACpB;;AAEA;EACE,cAAc;EACd,oBAAoB;AACtB;;AAEA;EACE;IACE,4CAA4C;EAC9C;AACF;;AAEA;EACE,yBAAyB;EACzB,iBAAiB;EACjB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,6BAA6B;EAC7B,YAAY;AACd;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE;IACE,uBAAuB;EACzB;EACA;IACE,yBAAyB;EAC3B;AACF","sourcesContent":[".App {\n  text-align: center;\n}\n\n.App-logo {\n  height: 40vmin;\n  pointer-events: none;\n}\n\n@media (prefers-reduced-motion: no-preference) {\n  .App-logo {\n    animation: App-logo-spin infinite 20s linear;\n  }\n}\n\n.App-header {\n  background-color: #282c34;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: calc(10px + 2vmin);\n  color: white;\n}\n\n.App-link {\n  color: #61dafb;\n}\n\n@keyframes App-logo-spin {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n", "",{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT;;cAEY;EACZ,mCAAmC;EACnC,kCAAkC;AACpC;;AAEA;EACE;aACW;AACb","sourcesContent":["body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',\n    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./src/App.css":
+/*!*********************!*\
+  !*** ./src/App.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css",
+      function () {
+        content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/Home */ "./src/pages/Home.js");
+/* harmony import */ var _pages_Contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/Contact */ "./src/pages/Contact.js");
+/* harmony import */ var _pages_Portfolio__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/Portfolio */ "./src/pages/Portfolio.js");
+/* harmony import */ var _pages_NotFound__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/NotFound */ "./src/pages/NotFound.js");
+/* harmony import */ var _pages_Knowledges__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/Knowledges */ "./src/pages/Knowledges.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\none\\src\\App.js";
+
+
+
+
+
+
+
+
+
+
+
+const App = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+          path: "/",
+          exact: true,
+          component: _pages_Home__WEBPACK_IMPORTED_MODULE_3__["default"]
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 15,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+          path: "/comp\xE9tences",
+          component: _pages_Knowledges__WEBPACK_IMPORTED_MODULE_7__["default"]
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+          path: "/portfolio",
+          component: _pages_Portfolio__WEBPACK_IMPORTED_MODULE_5__["default"]
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+          path: "/contact",
+          component: _pages_Contact__WEBPACK_IMPORTED_MODULE_4__["default"]
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+          component: _pages_NotFound__WEBPACK_IMPORTED_MODULE_6__["default"]
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 9
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false);
+};
+
+_c = App;
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "App");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/Navigation.js":
+/*!**************************************!*\
+  !*** ./src/components/Navigation.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\none\\src\\components\\Navigation.js";
+
+
+
+
+
+const Navigation = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+      className: "sidebar",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+        className: "id",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+          className: "idContent",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("img", {
+            src: "./media/billGates.jpg",
+            alt: "profil-pic"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 10,
+            columnNumber: 13
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+        className: "navigation",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("ul", {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+              exact: true,
+              to: "/",
+              activeClassName: "navActive",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("i", {
+                className: "fas fa-home"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 17,
+                columnNumber: 17
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("spam", {
+                children: "Accueil"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 18,
+                columnNumber: 17
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 16,
+              columnNumber: 15
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 15,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+              exact: true,
+              to: "/competences",
+              activeClassName: "navActive",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("i", {
+                className: "fas fa-mountain"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 23,
+                columnNumber: 17
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("spam", {
+                children: "Comp\xE9tences"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 24,
+                columnNumber: 17
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 22,
+              columnNumber: 15
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 21,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+              exact: true,
+              to: "/portfolio",
+              activeClassName: "navActive",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("i", {
+                className: "fas fa-images"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 29,
+                columnNumber: 17
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("spam", {
+                children: "Portfolio"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 30,
+                columnNumber: 17
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 28,
+              columnNumber: 15
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 27,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+              exact: true,
+              to: "/contact",
+              activeClassName: "navActive",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("i", {
+                className: "fas fa-address-book"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 35,
+                columnNumber: 17
+              }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("spam", {
+                children: "contact"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 36,
+                columnNumber: 17
+              }, undefined)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 34,
+              columnNumber: 15
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 33,
+            columnNumber: 13
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 14,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 13,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+        className: "socialNetwork",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("ul", {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+              href: "https://www.github.com",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("i", {
+                className: "fab fa-github"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 49,
+                columnNumber: 17
+              }, undefined)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 44,
+              columnNumber: 15
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 43,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+              href: "https://www.linkedin.com",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("i", {
+                className: "fab fa-linkedin"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 58,
+                columnNumber: 17
+              }, undefined)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 53,
+              columnNumber: 15
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 52,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+              href: "https://www.codepen.com",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("i", {
+                className: "fab fa-codepen"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 67,
+                columnNumber: 17
+              }, undefined)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 62,
+              columnNumber: 15
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 61,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+              href: "https://www.youtube.com",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("i", {
+                className: "fab fa-youtube"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 76,
+                columnNumber: 17
+              }, undefined)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 71,
+              columnNumber: 15
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 70,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+              href: "https://www.twitter.com",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("i", {
+                className: "fab fa-twitter"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 85,
+                columnNumber: 17
+              }, undefined)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 80,
+              columnNumber: 15
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 79,
+            columnNumber: 13
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 41,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+        className: "signature",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("p", {
+          children: "Tcotidiane - copyright@2021 LAMI "
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 91,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+          href: "https://www.startup-jupiter.com",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("big", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("em", {
+              children: "StartUp-Jupiter"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 94,
+              columnNumber: 15
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 93,
+            columnNumber: 13
+          }, undefined)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 92,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 90,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false);
+};
+
+_c = Navigation;
+/* harmony default export */ __webpack_exports__["default"] = (Navigation);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Navigation");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css",
+      function () {
+        content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var _reportWebVitals__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./reportWebVitals */ "./src/reportWebVitals.js");
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/styles.scss */ "./src/styles/styles.scss");
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\none\\src\\index.js";
+
+
+
+
+ //import * as serviceWorker from "./serviceWorker";
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.StrictMode, {
+  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 11,
+    columnNumber: 5
+  }, undefined)
+}, void 0, false, {
+  fileName: _jsxFileName,
+  lineNumber: 10,
+  columnNumber: 3
+}, undefined), document.getElementById("root")); // If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
+Object(_reportWebVitals__WEBPACK_IMPORTED_MODULE_4__["default"])(); //serviceWorker.unregister();
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/media/bigGates.jpg":
+/*!********************************!*\
+  !*** ./src/media/bigGates.jpg ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/bigGates.88d13cc1.jpg");
+
+/***/ }),
+
+/***/ "./src/media/map.jpg":
+/*!***************************!*\
+  !*** ./src/media/map.jpg ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/map.3e5949c9.jpg");
+
+/***/ }),
+
+/***/ "./src/media/shape.svg":
+/*!*****************************!*\
+  !*** ./src/media/shape.svg ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/shape.1d026b20.svg");
+
+/***/ }),
+
+/***/ "./src/pages/Contact.js":
+/*!******************************!*\
+  !*** ./src/pages/Contact.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Navigation */ "./src/components/Navigation.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\none\\src\\pages\\Contact.js";
+
+
+
+
+
+const Contact = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+      className: "",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(_components_Navigation__WEBPACK_IMPORTED_MODULE_1__["default"], {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 9
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false);
+};
+
+_c = Contact;
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Contact");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/pages/Home.js":
+/*!***************************!*\
+  !*** ./src/pages/Home.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Navigation */ "./src/components/Navigation.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\none\\src\\pages\\Home.js";
+
+ // import Navigation from "./components/Navigation";
+
+
+
+
+const Home = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+      className: "home",
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(_components_Navigation__WEBPACK_IMPORTED_MODULE_1__["default"], {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 9
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+        className: "homeContent",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+          className: "content",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("h1", {
+            children: "Traore cheick oumar tidiane"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 12,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("h2", {
+            children: "D\xE9veloppeur Full-Stact"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 13,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+            className: "pdf",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+              href: "./media/CV.pdf",
+              target: "_blank",
+              children: "T\xE9l\xE9charger CV"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 15,
+              columnNumber: 15
+            }, undefined)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 14,
+            columnNumber: 13
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 11
+        }, undefined)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 10,
+        columnNumber: 9
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false);
+};
+
+_c = Home;
+/* harmony default export */ __webpack_exports__["default"] = (Home);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Home");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/pages/Knowledges.js":
+/*!*********************************!*\
+  !*** ./src/pages/Knowledges.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Navigation */ "./src/components/Navigation.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\none\\src\\pages\\Knowledges.js";
+
+
+
+
+
+const Knowledge = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(_components_Navigation__WEBPACK_IMPORTED_MODULE_1__["default"], {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 9
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false);
+};
+
+_c = Knowledge;
+/* harmony default export */ __webpack_exports__["default"] = (Knowledge);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Knowledge");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/pages/NotFound.js":
+/*!*******************************!*\
+  !*** ./src/pages/NotFound.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\none\\src\\pages\\NotFound.js";
+
+
+
+
+
+const NotFound = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+      className: "notFound",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+        className: "notFoundContent",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("h3", {
+          children: "D\xE9sol\xE9 cette page n'existe pas !"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 11
+        }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+          exact: true,
+          to: "/",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("i", {
+            className: "fas fa-home"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 11,
+            columnNumber: 13
+          }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("spam", {
+            children: " Accueil"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 12,
+            columnNumber: 13
+          }, undefined)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 11
+        }, undefined)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 9
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false);
+};
+
+_c = NotFound;
+/* harmony default export */ __webpack_exports__["default"] = (NotFound);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "NotFound");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/pages/Portfolio.js":
+/*!********************************!*\
+  !*** ./src/pages/Portfolio.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Navigation */ "./src/components/Navigation.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "D:\\none\\src\\pages\\Portfolio.js";
+
+
+
+
+
+const Portfolio = () => {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["Fragment"], {
+    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+      className: "",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])(_components_Navigation__WEBPACK_IMPORTED_MODULE_1__["default"], {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 9
+      }, undefined)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 7
+    }, undefined)
+  }, void 0, false);
+};
+
+_c = Portfolio;
+/* harmony default export */ __webpack_exports__["default"] = (Portfolio);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Portfolio");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/reportWebVitals.js":
+/*!********************************!*\
+  !*** ./src/reportWebVitals.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+const reportWebVitals = onPerfEntry => {
+  if (onPerfEntry && onPerfEntry instanceof Function) {
+    __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! web-vitals */ "./node_modules/web-vitals/dist/web-vitals.js")).then(({
+      getCLS,
+      getFID,
+      getFCP,
+      getLCP,
+      getTTFB
+    }) => {
+      getCLS(onPerfEntry);
+      getFID(onPerfEntry);
+      getFCP(onPerfEntry);
+      getLCP(onPerfEntry);
+      getTTFB(onPerfEntry);
+    });
+  }
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (reportWebVitals);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/styles/styles.scss":
+/*!********************************!*\
+  !*** ./src/styles/styles.scss ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../../node_modules/postcss-loader/src??postcss!../../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./styles.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/styles.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../../node_modules/postcss-loader/src??postcss!../../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./styles.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/styles.scss",
+      function () {
+        content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../../node_modules/postcss-loader/src??postcss!../../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./styles.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles/styles.scss");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ 1:
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! D:\none\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! D:\none\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js */"./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js");
+__webpack_require__(/*! D:\none\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! D:\none\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main","vendors~main"]]]);
+//# sourceMappingURL=main.chunk.js.map
