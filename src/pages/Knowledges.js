@@ -5,7 +5,8 @@ import Experience from "../components/knowledges/Experience";
 import Hobbies from "../components/knowledges/Hobbies";
 import OtherSkills from "../components/knowledges/OtherSkills";
 
-const Knowledge = () => {
+const Knowledges = () => {
+  
   return (
     <>
       <div className="Knowledges">
@@ -21,4 +22,4 @@ const Knowledge = () => {
   );
 };
 
-export default Knowledge;
+export default Knowledges;

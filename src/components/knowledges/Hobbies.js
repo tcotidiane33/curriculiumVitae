@@ -2,9 +2,31 @@ import React from "react";
 
 const Hobbies = () => {
   return (
-    <>
-      <div classname="">hello ici hobbies !</div>
-    </>
+    <div classname="hobbies">
+      <h3>Intérêts </h3>
+      <ul>
+        <li classnName="hobby">
+          <i className="fas fa-bitcoin"></i>
+          <spam>Crypto Monnaies</spam>
+        </li>
+        <li classnName="hobby">
+          <i className="fas fa-hiking"></i>
+          <spam>100 pats</spam>
+        </li>
+        <li classnName="hobby">
+          <i className="fas fa-runnning"></i>
+          <spam>BasketBall</spam>
+        </li>
+        <li classnName="hobby">
+          <i className="fas fa-sendling"></i>
+          <spam>Mithologie</spam>
+        </li>
+        <li classnName="hobby">
+          <i className="fas fa-rocket"></i>
+          <spam>Coding & Forums</spam>
+        </li>
+      </ul>
+    </div>
   );
 };
 
