@@ -5,7 +5,7 @@ export default class Project extends Component {
     showInfo: false,
   };
 
-  hundelInfo = () => {
+  hundleInfo = () => {
     this.setState({
       showInfo: !this.state.showInfo,
     });
@@ -23,8 +23,8 @@ export default class Project extends Component {
           ))}
         </div>
         <h3>{name}</h3>
-        <img src={picture} alt="" onClick={this.hundelInfo} />
-        <span className="infos" onClick={this.hundelInfo}>
+        <img src={picture} alt="" onClick={this.hundleInfo} />
+        <span className="infos" onClick={this.hundleInfo}>
           <i className="fas fa-plus-circle"></i>
         </span>
 
@@ -35,7 +35,7 @@ export default class Project extends Component {
                 <h2>{name}</h2>
               </div>
 
-              <div className="button return" onClick={this.handelInfos}>
+              <div className="button return" onClick={this.hundleInfo}>
                 Retouner sur la page !
               </div>
             </div>
