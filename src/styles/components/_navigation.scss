@@ -2,6 +2,7 @@
   background: $color-1;
   font-family: $font-1;
   height: 100%;
+  margin-right: 0.5rem;
   min-height: $minHeight;
   min-width: 264px;
   border-radius: $borderRadius;
@@ -50,7 +51,8 @@
 
       li {
         padding: 1rem 0 1rem 0.4rem;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        margin-left: 0rem;
         position: relative;
 
         &:hover i {
@@ -59,6 +61,7 @@
 
         a {
           color: $color-5;
+          // margin-left:;
         }
         .navActive {
           color: $color-4;
@@ -66,12 +69,10 @@
 
         i {
           position: absolute;
-          font-size: 0.95rem;
+          font-size: 1.5rem;
+          // margin-left: 2rem;
           transform: translateY(3px);
           transition: 0.2s ease;
-        }
-        span {
-          margin-left: 3rem;
         }
       }
     }
@@ -82,11 +83,11 @@
     ul {
       display: flex;
       width: 264px;
-      padding: 0 14px;
+      padding: 0 12px;
       justify-content: space-between;
 
       li {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         background: $color-5;
         color: $color-1;
         border-radius: 50%;

@@ -1,7 +1,8 @@
 import React from "react";
+// eslint-disable-next-line
 
 const ProgressBar = (props) => {
-  console.log(props);
+ // console.log(props);
 
   return (
     <>
@@ -12,9 +13,8 @@ const ProgressBar = (props) => {
           <spam>1 Ans</spam>
           <spam>2 Ans</spam>
         </div>
-        <div className="">
-          {" "}
-          // commande jsx en crocher
+        // commande jsx en crocher
+        <div>
           {props.languages.map((item) => {
             let xpYears = 2;
             let progressBar = item.xp / xpYears + 100 + "%";
