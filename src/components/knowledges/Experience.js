@@ -14,7 +14,7 @@ const Experience = () => {
             suscipit. Nisi, excepturi consectetur hic ut nesciunt possimus nam.
             Ipsam modi commodi aliquid!
           </p>
-      </div>
+        </div>
         <div className="exp-2">
           <h4>develooppeur full-stack !</h4>
           <h5>2021 -20..</h5>

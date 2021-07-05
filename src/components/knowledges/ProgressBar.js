@@ -2,7 +2,7 @@ import React from "react";
 // eslint-disable-next-line
 
 const ProgressBar = (props) => {
- // console.log(props);
+  // console.log(props);
 
   return (
     <>
@@ -13,7 +13,7 @@ const ProgressBar = (props) => {
           <spam>1 Ans</spam>
           <spam>2 Ans</spam>
         </div>
-        // commande jsx en crocher
+
         <div>
           {props.languages.map((item) => {
             let xpYears = 2;
@@ -21,8 +21,8 @@ const ProgressBar = (props) => {
 
             return (
               <div key={item.id} className="languagesList">
-                <li>{item.value}</li> //pour mettre de styles en react "double
-                accolade"
+                <li>{item.value}</li>
+
                 <div
                   className="progressBar"
                   style={{ width: progressBar }}
@@ -37,3 +37,5 @@ const ProgressBar = (props) => {
 };
 
 export default ProgressBar;
+// commande jsx en crocher
+//pour mettre de styles en react "doubleaccolade"
