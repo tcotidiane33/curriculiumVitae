@@ -14,6 +14,7 @@ const Contact = () => {
               <ul classsName="map">
                 <li>
                   <i className="fas fa-map-marker-alt"></i>
+                  
                   <span>Abidjan</span>
                 </li>
               </ul>
@@ -30,7 +31,8 @@ const Contact = () => {
                       00 225 05 84 20 51 08
                     </span>
                   </CopyToClipboard>
-                  <span>Bordeau</span>
+                  <br />
+                  <br />
                 </li>
                 <li>
                   <i className="far fa-envelope"></i>
@@ -44,7 +46,9 @@ const Contact = () => {
                       tcotdiane33@gmail.com
                     </span>
                   </CopyToClipboard>
-                  <span>Bordeau</span>
+
+                  <br />
+                
                 </li>
               </ul>
             </div>

@@ -16,7 +16,7 @@
     width: 100%;
     position: relative;
     background: $color-1;
-    height: 340px;
+    height: 500px;
 
     &:before {
       content: "";
@@ -32,14 +32,14 @@
       height: 100%;
       position: absolute;
       top: 30px;
-      background: url(../../media/shape.svg) no-repeat center / cover;
+      // background: url(../../media/shape.svg) no-repeat center / cover;
     }
   }
   .contactBox {
     grid-area: 2;
     background: $color-5;
     margin: 0 auto;
-    padding: 1rem 3rem;
+    padding: 2rem 3rem;
     z-index: 2;
     border-radius: $borderRadius;
     box-shadow: 0 3px 10px #333;
@@ -142,13 +142,13 @@
         @include networkAnim(0.4s);
       }
       a:nth-child(2) {
-        @include networkAnim(0.8s);
+        @include networkAnim(0.9s);
       }
       a:nth-child(3) {
-        @include networkAnim(1.2s);
+        @include networkAnim(1.3s);
       }
       a:nth-child(4) {
-        @include networkAnim(1.6s);
+        @include networkAnim(1.7s);
       }
     }
   }
