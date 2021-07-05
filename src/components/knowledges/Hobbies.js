@@ -2,11 +2,11 @@ import React from "react";
 
 const Hobbies = () => {
   return (
-    <div classname="hobbies">
+    <div className="hobbies">
       <h3>Intérêts </h3>
       <ul>
         <li classnName="hobby">
-          <i className="fas fa-bitcoin"></i>
+          <i className="fab fa-btc "></i>
           <spam>Crypto Monnaies</spam>
         </li>
         <li classnName="hobby">
@@ -14,11 +14,11 @@ const Hobbies = () => {
           <spam>100 pats</spam>
         </li>
         <li classnName="hobby">
-          <i className="fas fa-runnning"></i>
+          <i className="fas fa-basketball-ball"></i>
           <spam>BasketBall</spam>
         </li>
         <li classnName="hobby">
-          <i className="fas fa-sendling"></i>
+          <i className="fas fa-landmark"></i>
           <spam>Mithologie</spam>
         </li>
         <li classnName="hobby">
