@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// eslint-disable-next-line
 
 export default class Project extends Component {
   state = {
@@ -27,14 +28,25 @@ export default class Project extends Component {
         <span className="infos" onClick={this.hundleInfo}>
           <i className="fas fa-plus-circle"></i>
         </span>
-
+        //this.state.showInfo && sous entend que si jamai c'est egale a True (le
+        hundleInfo) alors on execute
         {this.state.showInfo && (
           <div className="showInfos">
             <div className="infosContent">
               <div className="head">
                 <h2>{name}</h2>
+                <div className="sourceCode">
+                  <a
+                    href={source}
+                    className="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Code Source
+                  </a>
+                </div>
               </div>
-
+              <p>{info}</p>
               <div className="button return" onClick={this.hundleInfo}>
                 Retouner sur la page !
               </div>

@@ -76,7 +76,7 @@ const Navigation = () => {
                 <i className="fab fa-youtube"></i>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="https://www.twitter.com"
                 target="_blank"
@@ -84,7 +84,7 @@ const Navigation = () => {
               >
                 <i className="fab fa-twitter"></i>
               </a>
-            </li>
+            </li> */}
           </ul>
 
         </div>
