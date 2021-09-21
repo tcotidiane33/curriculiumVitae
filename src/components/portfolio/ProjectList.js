@@ -22,7 +22,7 @@ export default class ProjectList extends Component {
     this.setState({ selectedRadio: radio });
     // console.log(event.target.value);
   };
-
+  // text
   // i like destructuring
   render() {
     let { projects, radios, selectedRadio } = this.state;
