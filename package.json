@@ -1,5 +1,5 @@
 {
-  "name": "none",
+  "name": "cv",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,5 +42,14 @@
   },
   "devDependencies": {
     "sass": "^1.35.1"
-  }
+  },
+  "description": "tcotidiane",
+  "main": "index.js",
+  "repository": "git+https://github.com/tcotidiane33/curriculiumVitae.git",
+  "author": "tcotidiane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcotidiane33/curriculiumVitae/issues"
+  },
+  "homepage": "https://github.com/tcotidiane33/curriculiumVitae#readme"
 }
